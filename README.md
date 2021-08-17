@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
-# Setup
+## Setup
 
 Please run npm install to get started
 
