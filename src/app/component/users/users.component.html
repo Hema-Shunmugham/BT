@@ -1,0 +1,17 @@
+<div class="container-fluid userContainer">
+  <div class="row">
+    <h5 class="mx-1 mb-4">Please select a user to find their comments:</h5>
+    <div *ngFor="let user of usersData$" class="col-auto d-flex flex-column">
+      <button class="btn btn-secondary btn-sm m-1" type="button" (click)="onClick($event, user.id)" >
+        {{ user.name }}</button>
+    </div>
+  </div>
+</div>
+<div class="spinner-border m-5" role="status" *ngIf="showSpinner">
+  <span class="sr-only">Retrieving user posts...</span>
+</div>
+<div class="container-fluid postContainer" *ngIf="showUserPosts">
+  <div class="row">
+    <app-posts [userId]="selectedUserId"></app-posts>
+  </div>
+</div>

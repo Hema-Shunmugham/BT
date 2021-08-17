@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+:host {
+  font-family: HelveticaNeue;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.04;
+  letter-spacing: normal;
+  text-align: left;
+  color: #00263e;
+}

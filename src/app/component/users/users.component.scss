@@ -1,0 +1,29 @@
+
+.userContainer{
+  margin: 23px 30px 20px;
+  padding: 24px 30px 24px 30px;
+  border-radius: 3px;
+  border: solid 1px #ededed;
+  background-color: #f5f5f5;
+}
+.postContainer {
+  margin: 20px 30px 30px;
+  padding: 30px;
+  border-radius: 3px;
+  border: solid 1px #ededed;
+  background-color: #fff;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+.container-fluid {
+  width: 96% !important;
+}
+.btn-secondary {
+  border-radius: 3px;
+  border: solid 1px #e5e5e5;
+  background-image: linear-gradient(185deg, #0c2b34 127%, #335178 7%);
+}
+
+
